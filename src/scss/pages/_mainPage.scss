@@ -1,0 +1,35 @@
+.main-page {
+  background-color: #1f1f23 !important;
+  &__search-input {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    input {
+      color: #fff;
+      background-color: #1f1f23;
+      border: 1px solid #c5c5c6;
+      &:focus {
+        background-color: #1f1f23;
+        border: 1px solid #c5c5c6;
+        color: #fff;
+      }
+    }
+
+    button {
+      background-color: #772ce8;
+      border-color: #772ce8;
+      &:hover {
+        background-color: #772ce8;
+        color: #fff;
+        border-color: #772ce8;
+      }
+    }
+  }
+
+  &__shows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

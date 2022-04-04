@@ -1,0 +1,7 @@
+.viewed-page {
+	padding: 20px 0px;
+	&__shows {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

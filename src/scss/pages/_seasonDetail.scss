@@ -1,0 +1,42 @@
+.season-detail-page {
+	padding: 20px 0px;
+	&__landing {
+		display: flex;
+
+		&-title {
+			padding: 20px;
+		}
+	}
+
+	&__episodes {
+		display: flex;
+		margin: 40px 0px;
+		box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+		img {
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+			object-fit: cover;
+		}
+
+		&-info {
+			padding: 20px;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.season-detail-page {
+		&__landing {
+			flex-direction: column;
+		}
+
+		&__episodes {
+			flex-direction: column;
+			box-shadow: none;
+
+			img {
+				border-radius: 5px;
+			}
+		}
+	}
+}
